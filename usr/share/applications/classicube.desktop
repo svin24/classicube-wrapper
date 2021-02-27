@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=Game;
+Exec=/opt/classicube/run.sh
+Icon=/opt/classicube/icon.png
+Keywords=game;ClassiCube;
+MimeType=
+Name=ClassiCube
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

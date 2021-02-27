@@ -1,0 +1,10 @@
+Package: ClassiCube
+Version: 1.0
+Architecture: all
+Maintainer: john iliopoulos <svin@dismail.de>
+Section: games
+Priority: optional
+Installed-Size: 75
+Depends: zenity, desktop-file-utils, wget
+Homepage: http://www.classicube.net
+Description: A local install wrapper for ClassiCube
