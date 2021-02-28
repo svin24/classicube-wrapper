@@ -1,0 +1,27 @@
+#!/bin/bash
+
+RUNSCRIPT="/opt/classicube/run.sh"
+INSTDIR="${XDG_DATA_HOME-$HOME/.local/share}/classicube"
+
+
+clearinstall() {
+	rm -rf $INSTDIR
+}
+
+helptext() {
+	echo "Commands:
+--run/nothing		Run ClassiCube script
+--clear			Clear ClassiCube install"
+}
+
+case "$1" in
+	--clear)
+	clearinstall
+	;;
+	--run | "")
+	$RUNSCRIPT
+	;;
+	*)
+	helptext
+	;;
+esac
